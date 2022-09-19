@@ -684,7 +684,58 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 
   .sm\:max-w-3xl {
-    max-width: 48rem;
+    max-width: 25rem;
+  }
+
+  .sm\:max-w-xl {
+    max-width: 36rem;
+  }
+
+  .sm\:px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .sm\:py-16 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .sm\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .sm\:pt-12 {
+    padding-top: 3rem;
+  }
+
+  .sm\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+}
+
+@media (max-width: 640px) {
+  .sm\:relative {
+    position: relative;
+  }
+
+  .sm\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .sm\:mt-12 {
+    margin-top: 3rem;
+  }
+
+  .sm\:block {
+    display: block;
+  }
+
+  .sm\:max-w-3xl {
+    max-width: 20rem;
   }
 
   .sm\:max-w-xl {
